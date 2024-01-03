@@ -1,7 +1,7 @@
 
-# Zoe Depth Estimation
+# Venv
 
-A brief description of what this project does and who it's for
+A model that calculates the depth measurement of input images and extracts the data set.
 
 
 ## Usage/Examples
