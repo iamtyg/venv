@@ -1,5 +1,4 @@
-#!/Users/tahsinyigitgultekin/venv/bin/python
-# -*- coding: utf-8 -*-
+
 import re
 import sys
 from pip._internal.cli.main import main
