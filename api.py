@@ -17,6 +17,7 @@ os.makedirs(TEMP_FOLDER, exist_ok=True)
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     try:
+        
         file_ext = os.path.splitext(file.filename)[1]
         if file_ext not in ALLOWED_EXTENSIONS:
             return {"error": "Uploaded file must be in JPG, JPEG or PNG format."}
